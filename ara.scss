@@ -1,0 +1,48 @@
+$main: #66347F;
+
+Header {
+    background: $main;
+}
+
+Footer {
+    background: $main;
+}
+
+EditorScreen {
+    layout: vertical;
+    height: 1fr;
+    width: 1fr;
+}
+
+SQLEditor {
+    height: 5fr;
+}
+
+TextArea {
+    height: 5fr;
+    width: 1fr;
+}
+
+SQLEditor #sql-editor:focus {
+    # border: tall red;
+}
+
+ResultsPanel {
+    height: 3fr;
+}
+
+Static {
+    height: 1;
+}
+
+ResultsArea {
+    height: 1fr;
+}
+
+DataTable {
+    height: 1fr;
+}
+
+ResultInfoBar {
+    height: 1;
+}
